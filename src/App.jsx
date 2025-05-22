@@ -41,7 +41,7 @@ function App() {
 
   return (
     <>
-      <h1>🌟 My Todo App</h1>
+      <h1> My Todo App</h1>
       <div className="input-container">
         <input
           type="text"
