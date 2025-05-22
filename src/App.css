@@ -1,0 +1,88 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #667eea, #764ba2);
+  color: #fff;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+input[type="text"] {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  width: 250px;
+  font-size: 1rem;
+  outline: none;
+}
+
+button.add-btn {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  background: #00c6ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.add-btn:hover {
+  background: #009ec3;
+}
+
+ul.todo-list {
+  list-style: none;
+  padding: 0;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+ul.todo-list li {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+ul.todo-list li span {
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+ul.todo-list li span.completed {
+  color: #90ee90;
+  text-decoration: line-through;
+}
+
+button.delete-btn {
+  background: #ff6b6b;
+  border: none;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.delete-btn:hover {
+  background: #cc4c4c;
+}
